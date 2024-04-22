@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор вкладов</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Калькулятор вкладов</h1>
+    <form id="calculatorForm">
+        <label for="depositType">Выберите тип вклада:</label>
+        <select id="depositType" name="depositType">
+            <option value="popolnyaemy">Пополняемый</option>
+            <option value="srochny">Срочный</option>
+        </select><br><br>
+
+        <label for="depositTerm">Выберите срок вклада:</label>
+        <select id="depositTerm" name="depositTerm">
+            
+        </select><br><br>
+
+        <label for="depositAmount">Введите сумму вклада:</label>
+        <input type="number" id="depositAmount" name="depositAmount" min="0" required><br><br>
+
+        <button type="button" onclick="calculate()">Рассчитать</button>
+    </form>
+
+    <p id="resultMessage"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>

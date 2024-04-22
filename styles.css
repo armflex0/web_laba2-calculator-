@@ -1,0 +1,24 @@
+body{
+
+    text-align: center;
+}
+
+
+h1{
+    font: small-caps bold 28px/1 sans-serif;
+}
+
+label{
+
+    font: small-caps 14px/1 sans-serif;
+}
+
+#resultMessage{
+
+    display: none;
+    border: 2px dashed red;
+    margin-left: 40%;
+    width: 20vw;
+    font: small-caps 14px/1 sans-serif;
+
+}
